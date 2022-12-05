@@ -52,6 +52,7 @@
 		57B63362293A649C00CD9B8A /* test gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B63366293A649C00CD9B8A /* test_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_gameUITests.swift; sourceTree = "<group>"; };
 		57B63368293A649C00CD9B8A /* test_gameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_gameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		57B63376293A6B3700CD9B8A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,7 @@
 				57B6335B293A649C00CD9B8A /* test gameTests */,
 				57B63365293A649C00CD9B8A /* test gameUITests */,
 				57B63340293A649A00CD9B8A /* Products */,
+				57B63375293A6A1E00CD9B8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +131,14 @@
 				57B63368293A649C00CD9B8A /* test_gameUITestsLaunchTests.swift */,
 			);
 			path = "test gameUITests";
+			sourceTree = "<group>";
+		};
+		57B63375293A6A1E00CD9B8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57B63376293A6B3700CD9B8A /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -11,12 +11,21 @@ import GameplayKit
 class GameScene: SKScene {
     
     var TextureAtlas = SKTextureAtlas ()
-      
-    var TextureArray = [SKTexture] ()
-     
-//    TextureAtlas = SKTextureAtlas(named: jiggy)
-//    for i in 0...TextureAtlas.textureNames.count
     
+    var TextureArray = [SKTexture] ()
+    
+    //    TextureAtlas = SKTextureAtlas(named: jiggy)
+    
+  
+    
+    //    for i in 0...TextureAtlas.textureNames.count{
+    
+    
+    
+
+    
+
+
     var entities = [GKEntity]()
     var graphs = [String : GKGraph]()
     

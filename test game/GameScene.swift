@@ -10,6 +10,8 @@ import GameplayKit
 
 class GameScene: SKScene {
     
+    var MainGuy = SKSpriteNode()
+    
     var TextureAtlas = SKTextureAtlas ()
     
     var TextureArray = [SKTexture] ()
@@ -20,8 +22,8 @@ class GameScene: SKScene {
     
     //    for i in 0...TextureAtlas.textureNames.count{
     
-    
-    
+//    var Name = "win_\(i).png"
+//    TextureArray.append(SKTexture(imageNamed = Name))
 
     
 
